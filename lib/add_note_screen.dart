@@ -65,13 +65,13 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
               Navigator.pop(context, 'loadData');
             },
             child: Container(
-              height: 45,
+              height: 40,
               width: double.infinity,
               margin: const EdgeInsets.symmetric(horizontal: 10),
               decoration: BoxDecoration(borderRadius: BorderRadius.circular(8),
                 color: Colors.blue
               ),
-              child: const Center(child: Text('Save',style: TextStyle(fontSize: 19,fontWeight: FontWeight.w500),),),
+              child: const Center(child: Text('Save',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w500,color: Colors.white),),),
             ),
           )
         ],
